@@ -1,0 +1,24 @@
+/**
+ * External dependencies
+ */
+import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
+
+class Failure extends Component {
+  constructor(props){
+    super(props);
+  }
+
+render() {
+  return (
+    <div>
+    <h3>Transaction Failed</h3>
+        <%= JSON.stringify(data) %>
+    </div>
+  )
+}
+}
+
+export default failure;

@@ -1,0 +1,38 @@
+import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
+
+class Failure extends Component {
+  constructor(props){
+    super(props);
+  }
+
+render() {
+  return (
+	<div className="container form-container">
+	  <form name="postForm" action="/payment" method="POST">
+
+		<div className="form-group">
+		  <label for="firstname" className="col-md-2">Firstname</label>
+		  <input id="firstname" type="text" name="firstname" value="" />
+		</div>
+
+		<div className="form-group">
+		  <label for="emailid" className="col-md-2">Email Address</label>
+		  <input id="emailid" type="text" name="email" value="" />
+		</div>
+
+		<div className="form-group">
+		  <label for="phone" className="col-md-2">Phone</label>
+		  <input id="phone" type="text" name="phone" value="" />
+		</div>
+
+		<button type="submit" className="btn ">Submit</button>
+
+	  </form>
+	</div>
+)
+}
+}
+export default Form.js

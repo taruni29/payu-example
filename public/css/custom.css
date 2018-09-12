@@ -1,0 +1,68 @@
+.simple,
+.next {
+    height: 100%;
+}
+.simple {
+    display: table;
+    margin: auto;
+}
+.next {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin {
+  margin: 0 !important;
+}
+#calender{
+  width:92%;
+  height: 555px;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+#calender
+button{
+  /* font-size: 10px; */
+  color: white;
+  background-color: #26a69a;
+}
+
+#calender
+.rbc-toolbar-label{
+  font-weight: bold;
+  font-size: 30px;
+}
+#calender
+.rbc-calendar{
+  box-shadow: 1px 0px 5px grey;
+  background: white;
+  padding: 20px;
+}
+.well-sm{
+    width: 400px;
+}
+.table {
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.side{
+  margin-left:-39px !important;
+}
+.side1{
+  margin-left:-30px !important;
+}
+
+form input{
+    padding:.5em;
+  }
+
+  form button{
+    background-color:#343a40;
+    color:White;
+    margin-right:20px;
+  }
+
+  .form-container {
+    padding-top: 100px;
+  }
